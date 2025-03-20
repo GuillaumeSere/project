@@ -17,8 +17,8 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <NavLink to="/" className="text-2xl font-bold flex items-center gap-2">
-            <Flag className="h-6 w-6" />
-            F1 Stats
+            <Flag className="h-6 text-black w-6" />
+           <span className='text-black'>F1</span>Stats
           </NavLink>
 
           {/* Desktop Menu */}
